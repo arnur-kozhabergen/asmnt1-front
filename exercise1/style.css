@@ -1,0 +1,74 @@
+body {
+    background-color: #eeeeee;
+}
+
+.tribute-header {
+    background-color: #111111;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 6px solid #ff2e88;
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.content {
+    width: auto;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.portrait {
+    display: block;
+    max-width: 280px;
+    margin: 0 auto;
+    border: 5px solid #111111;
+    border-radius: 12px;
+    box-shadow: 8px 8px 0 #ff2e88;
+}
+
+h2 {
+    font-size: 28px;
+    color: #ff2e88;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.events {
+    list-style-type: upper-roman;
+}
+
+.inventions {
+    list-style-type: square;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ffe600;
+    color: #111111;
+    border: 3px solid #111111;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background-color: #ff2e88;
+    color: white;
+    text-decoration: none;
+}
+
+.footer {
+    margin-left: 0;
+    text-align: center;
+}
