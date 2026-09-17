@@ -1,7 +1,7 @@
 # Assignment 1 HTML and CSS
 
 This is my website for Web Technologies
-https://arnur-kozhabergen.github.io/asmnt1-front-/
+https://arnur-kozhabergen.github.io/asmnt1-front/
 
 Pages
 index.html is my portfolio page
