@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: "Manrope", Arial, sans-serif;
+    font-size: 16px;
+    color: #1d1d1f;
+    background-color: #ebeae7;
+}
+
+.home {
+    background-image: url("img/photo_wide_true_4k_3840x2160.png");
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+}
+
+h1,
+h2 {
+    font-family: "DM Serif Display", serif;
+    font-weight: normal;
+}
+
+a {
+    color: #7a5230;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    padding: 20px 5%;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1d1d1f;
+    margin-right: 30px;
+}
+
+.nav-list {
+    display: inline;
+    padding: 0;
+}
+
+.nav-list li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.active {
+    border-bottom: 2px solid #7a5230;
+}
+
+.content {
+    width: 45%;
+    margin-left: 5%;
+}
+
+.card {
+    background-color: white;
+    padding: 24px;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 16px;
+}
+
+#intro {
+    text-align: center;
+}
+
+.avatar {
+    width: 120px;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.group {
+    color: gray;
+}
+
+.footer {
+    margin-left: 5%;
+    padding-bottom: 20px;
+    color: gray;
+}
+
+@media (max-width: 768px) {
+    .content {
+        width: auto;
+        margin: 0 16px;
+    }
+}
