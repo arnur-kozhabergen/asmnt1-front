@@ -1,0 +1,80 @@
+.page {
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#table-title {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #111111;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.highlight-row {
+    background-color: #ffe600;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#feedback-form {
+    width: 360px;
+    margin: 0 auto 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+}
+
+.radio {
+    width: auto;
+}
+
+button {
+    width: 100%;
+    margin-top: 16px;
+    padding: 10px;
+    background-color: #ff2e88;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #111111;
+}
